@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 5</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        header {
+            background-color: #7e116f;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        .barra {
+            background-color: #ca2549;
+            color: white;
+            width: 200px;
+            padding: 20px;
+            height: 100vh;
+            position: fixed;
+        }
+        main {
+            position:absolute;
+            margin-left: 300px;
+            margin-top: 150px;
+            height: 450px;
+            width: 900px;
+            background-color: rgb(245, 206, 255);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Encabezado</h1>
+    </header>
+    <div class="barra">
+        <h3>Navegación</h3>
+        <ul>
+            <li><a href="#" style="color: white;">Enlace 1</a></li>
+            <li><a href="#" style="color: white;">Enlace 2</a></li>
+            <li><a href="#" style="color: white;">Enlace 3</a></li>
+        </ul>
+    </div>
+    <main>
+        <h2>Contenido Principal</h2>
+        <p>Este es un diseño con barra lateral de navegación.</p>
+    </main>
+</body>
+</html>
